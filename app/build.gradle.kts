@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
     implementation("com.squareup.picasso:picasso:2.8")
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
